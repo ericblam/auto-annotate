@@ -1,0 +1,10 @@
+path               = C:/example/path
+project            = service
+folder             = controller
+annotation         = Timed
+annotationEnd      = time
+annotate           = false
+replace_import     = true
+replace_orig       = com.codahale.metrics.annotation
+replace_new        = com.cisco.ccrc.service.ccrccommon.statsd
+remove_annotations = false
